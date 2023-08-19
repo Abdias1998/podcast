@@ -11,3 +11,4 @@ if (-not $commit_message) {
 git add .
 git commit -m "$commit_message"
 git push -u origin main
+.\script.ps1 "Commit automatisé"
